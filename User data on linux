@@ -1,0 +1,7 @@
+#!/bin/bash
+yum update -y
+yum gorupinstall -y
+      "Web Server" "PHP Support"
+yum install -y php--mysql
+service httpd start
+chkconfig httypd on
